@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/poppins/index.css"; /* Poppins */
+@import "pretendard/dist/web/static/pretendard.css"; /* Pretendard */
+
+@font-face {
+  font-family: 'ShillaCultureB';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer base {
+    * {
+      @apply transition-all duration-300 ease-in-out;
+    }
+  }
